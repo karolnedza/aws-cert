@@ -11,10 +11,10 @@ resource "aws_acm_certificate" "example" {
   }
 }
 
-data "aws_route53_zone" "example" {
-  name         = "avxlab.cc"
-  private_zone = false
-}
+# data "aws_route53_zone" "example" {
+#   name         = "avxlab.cc"
+#   private_zone = false
+# }
 
 
 # resource "aws_route53_record" "example" {
