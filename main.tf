@@ -3,7 +3,7 @@ resource "aws_acm_certificate" "example" {
   validation_method = "DNS"
 
   tags = {
-    Environment = "stackguardian"
+    Environment = "production"
   }
 
   lifecycle {
